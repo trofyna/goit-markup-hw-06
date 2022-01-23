@@ -822,5 +822,9 @@ color: #FFFFFF;
     /* display: flex;
     flex-direction: column; */
     margin-left: 156px;
-}        
+    margin-right: 93px;
+} 
+.js-speaker-form {
+    padding-top: 10px;
+}       
 /* ===============Footer styles 🧐 ends here========== */
