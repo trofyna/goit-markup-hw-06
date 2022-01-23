@@ -240,6 +240,7 @@ header .logo {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     color: var(--prim-white-background);
 }
+/* ===============Modal window styles 🧐 stars here========== */
 .backdrop {
     z-index: 2;
     position: fixed;
@@ -286,7 +287,43 @@ header .logo {
         stroke-opacity: 1;
        
 }
+.send-to-modal {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
 
+}
+.span-style-modal {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+
+}
+.conditions {
+    color: var(--act-color);
+    border-bottom: 1px var(--act-color);
+}
+.btn-sendup {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    padding-right: 10px;
+    background: #2196F3;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/* ===============Modal window styles 🧐 ends here========== */
 /* ===============Hero styles 🧐 ends here========== */
 
 /* ===============Advantages styles 🧐 starts here========== */
