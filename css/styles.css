@@ -311,6 +311,22 @@ header .logo {
     color: var(--sec-color);
 
 }
+.input-style-modal {
+    border-color: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.01em;
+    color: var(--sec-color);
+     padding-left: 42px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-right: 11px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
 .fback {
     font-family: Roboto;
     font-style: normal;
