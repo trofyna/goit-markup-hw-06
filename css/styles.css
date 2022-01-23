@@ -293,8 +293,11 @@ header .logo {
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
+    line-height: calc(23 / 20);
     letter-spacing: 0.03em;
     color: var(--main-color);
+    margin-top: 40px;
+    margin-bottom: 30px;
 
 }
 
@@ -339,10 +342,8 @@ header .logo {
 
 .icon-person {
     position: absolute;
-    /* bottom: -1px; */
-    transform: translateY(100%);
-    /* top: 105px;
-    left: 50px; */
+    transform: translateY(130%);
+    margin-left: 12px;
     cursor: pointer;
     fill: var(--main-color);
 }
@@ -354,6 +355,8 @@ header .logo {
     line-height: 14px;
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
+    padding-top: 12px;
+    padding-left: 12px;
 }
 
 .conditions {
