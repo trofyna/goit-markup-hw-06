@@ -68,7 +68,36 @@
                         <circle cx="15" cy="15" r="14.5" />
                         <path d="M21 10.108 19.892 9 15.5 13.392 11.108 9 10 10.108l4.392 4.392L10 18.892 11.108 20l4.392-4.392L19.892 20 21 18.892 16.608 14.5 21 10.108Z" fill="#000"/>
                       </svg>
-              
+                      <!-- SEND TO FORM in Modal window-->
+                      <div class="send-to-modal">
+                        <form class="js-speaker-formM">
+                      <h3 class="send-to-modal">Оставьте свои данные, мы вам перезвоним</h3>
+                      <label>
+                        Имя
+                      <input type="text" name="username" autofocus />
+                      </label>     
+                      <label>
+                        Телефон
+                      <input type="tel" name="phone_number" />
+                      </label>
+                       <label>
+                        Почта
+                        <input class="email-input" type="email" name="email" required />
+                      </label>
+                      <label>
+                        Комментарий
+                        <textarea name="feedback" rows="6" placeholder="Введите текст"></textarea>
+                      </label>
+                      <button  class="btn-sendup" type="submit">Отправить</button>
+                      <div class="checkbox">
+                        <svg class="sendto-svg" width="24" height="24">
+                          <use href="./images/icons.svg#icon-check">
+                          </use>
+                        </svg>
+                        <span>Соглашаюсь с рассылкой и принимаю 
+                          <a href="#">Условия договора</a></span>
+                      </div>
+                    </form>
                     </div>
                   </div>
                 </section>                     
