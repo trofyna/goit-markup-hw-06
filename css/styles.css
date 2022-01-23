@@ -824,7 +824,45 @@ color: #FFFFFF;
     margin-left: 156px;
     margin-right: 93px;
 } 
+/* ===============SIGN UP FORM in Footer styles 🧐 starts here========== */
+
 .js-speaker-form {
     padding-top: 10px;
-}       
+}
+
+.sign-up-sending {
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.btn-signup {
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+.icon-style {
+    position: relative;
+}
+.signup-svg {
+    position: absolute;
+    bottom: -1px;
+    transform: translateY(180%);
+    right: 20px;
+    bottom: 40px;
+    fill: tomato;
+    cursor: pointer;
+    opacity: 1;
+}
+
 /* ===============Footer styles 🧐 ends here========== */
