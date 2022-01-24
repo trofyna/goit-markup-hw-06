@@ -1000,16 +1000,28 @@ color: #FFFFFF;
     border-radius: 4px;
     }
 
-    .btn-signup:hover, 
-    .btn-signup:focus {
-    
-    transition-property: background-color, fill;
+    .sing-up-input:hover, 
+    .sing-up-input:focus {
+
+    border-color: var(--act-color);
+    outline: var(--act-color);
+    fill: var(--act-color);
+    transition-property: border-color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+}
+.btn-signup:hover,
+.btn-signup:focus {
+
+transition-property: background-color, box-shadow;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .icon-style {
     position: relative;
 }
+
 .signup-svg {
     position: absolute;
     bottom: -1px;
