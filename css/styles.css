@@ -265,7 +265,10 @@ header .logo {
     transform: translate(-50%, -50%);
     max-width: 528px;
     max-height: 581px;
-    padding: 15px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
     background: var(--prim-white-background);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -277,17 +280,18 @@ header .logo {
         position: absolute;
         top: -0.5px;
         transform: translateX(680%);
-        stroke: #000;
-        fill-opacity: #fff;
-        fill:"#000";
+        stroke: tomato;
+        /* fill-opacity: #fff; */
+        /* fill:; */
         stroke-opacity: 0.1;
-        transition-property: stroke, stroke-opacity;
+        transition-property: fill, stroke-opacity;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     }
 .close:hover {
         stroke: var(--act-color);
         stroke-opacity: 1;
+
        
 }
 .send-to-modal {
