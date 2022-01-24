@@ -369,6 +369,7 @@ header .logo {
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
+    width: 448px;
     color: rgba(117, 117, 117, 0.5);
     padding-top: 12px;
     padding-left: 12px;
@@ -394,8 +395,9 @@ header .logo {
     border-radius: 4px;
     background-color: var(--prim-white-background);
     fill: var(--prim-white-background);
-    margin-left: 12px;
-    margin-right: 9px;
+    /* margin-left: 12px; */
+    /* margin-right: 9px; */
+    text-align: start;
   }
   .checkbox:checked + .icon-check {
     background-origin: border-box;
@@ -446,7 +448,7 @@ header .logo {
     margin-bottom: 30px;
     /* margin-right: 51px; */
     margin-left: 15px;
-        text-align: start;
+    text-align: start;
 }
 .btn-sendup {
     font-family: Roboto;
