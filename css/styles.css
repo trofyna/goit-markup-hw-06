@@ -320,6 +320,7 @@ header .logo {
     letter-spacing: 0.01em;
     /* margin-left: 0px; */
     color: var(--sec-color);
+    text-align: start;
 
 }
 .input-style-modal {
@@ -370,7 +371,9 @@ header .logo {
 .input-style-modal:hover,
 .input-style-modal:focus,
 .input-style-modal:focus + .icon-svg-modal,
-.input-style-modal:hover + .icon-svg-modal {
+.input-style-modal:hover + .icon-svg-modal,
+.fback:hover,
+.fback:focus {
   border-color: var(--act-color);
   outline: var(--act-color);
   fill: var(--act-color);
@@ -390,8 +393,8 @@ header .logo {
 .condi {
     margin-top: 20px;
     margin-bottom: 30px;
-    margin-right: 51px;
-    margin-left: 8px;
+    /* margin-right: 51px; */
+    margin-left: 15px;
 }
 .btn-sendup {
     font-family: Roboto;
@@ -995,6 +998,14 @@ color: #FFFFFF;
     color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    }
+
+    .btn-signup:hover, 
+    .btn-signup:focus {
+    
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 .icon-style {
     position: relative;
