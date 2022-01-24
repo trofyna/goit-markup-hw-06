@@ -366,8 +366,45 @@ header .logo {
     color: rgba(117, 117, 117, 0.5);
     padding-top: 12px;
     padding-left: 12px;
+    margin-bottom: 20px;
     
 }
+.checkbox {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 30px;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+
+  .icon-check {
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    background-color: var(--prim-white-background);
+    fill: var(--prim-white-background);
+    margin-left: 12px;
+    margin-right: 9px;
+  }
+  .checkbox:checked + .icon-check {
+    background-origin: border-box;
+    border-color: var(--act-color);
+    background-color: var(--act-color);
+    fill: var(--act-color);
+    transition-property: fill, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+  .label-style-check {
+    display: inline-block;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
 
 .input-style-modal:hover,
 .input-style-modal:focus,
@@ -391,11 +428,12 @@ header .logo {
     text-decoration: underline;
    
 }
-.condi {
+.span-style-modal-condi {
     margin-top: 20px;
     margin-bottom: 30px;
     /* margin-right: 51px; */
     margin-left: 15px;
+    text-align: start;
 }
 .btn-sendup {
     font-family: Roboto;
@@ -412,6 +450,7 @@ header .logo {
     border-radius: 4px;
     padding: auto;
     margin: 0px auto;
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 /* ===============Modal window styles 🧐 ends here========== */
