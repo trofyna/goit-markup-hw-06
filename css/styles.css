@@ -276,24 +276,35 @@ header .logo {
 .exit {
     position: relative;
 }
-.close { 
-        position: absolute;
-        top: -0.5px;
-        transform: translateX(680%);
-        stroke: #000;
-        /* fill-opacity: #fff; */
-        /* fill:; */
-        stroke-opacity: 0.1;
-        transition-property: fill, stroke-opacity;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
-    }
-.close:hover {
-        stroke: var(--act-color);
-        stroke-opacity: 1;
-
-       
+.close {
+    position: absolute;
+    /* top: 8px;
+    left: 490px; */
+    top: -0.5px;
+    transform: translateX(680%);
+    stroke: #000;
+    stroke-opacity: 0.1;
+    transition: stroke, stroke-opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .close:hover {
+    stroke: #2196f3;
+    stroke-opacity: 1;
+  }
+.btn-exit-modal {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    background-color: var(--prim-white-background);
 }
+       
+
 .send-to-modal {
     font-family: Roboto;
     font-style: normal;
