@@ -448,7 +448,7 @@ header .logo {
     margin-bottom: 30px;
     /* margin-right: 51px; */
     margin-left: 15px;
-    text-align: start;
+    text-align: none;
 }
 .btn-sendup {
     font-family: Roboto;
