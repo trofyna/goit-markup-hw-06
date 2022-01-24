@@ -327,8 +327,8 @@ header .logo {
     /* margin-left: 0px; */
     color: var(--sec-color);
     text-align: start;
-    /* margin-top: 10px;
-    margin-bottom: 10px; */
+    /* /* margin-top: 10px; */
+    margin-bottom: 4px;
 
 }
 .input-style-modal {
