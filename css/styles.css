@@ -412,6 +412,7 @@ header .logo {
     display: inline-block;
     font-size: 14px;
     line-height: calc(24 / 14);
+    text-align: start;
   }
 
 .input-style-modal:hover,
