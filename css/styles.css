@@ -350,6 +350,10 @@ header .logo {
     fill: var(--main-color);
 }
 .fback {
+    border-color: 1px solid rgba(33, 33, 33, 0.2);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -359,12 +363,35 @@ header .logo {
     color: rgba(117, 117, 117, 0.5);
     padding-top: 12px;
     padding-left: 12px;
+    
+
 }
 
+.input-style-modal:hover,
+.input-style-modal:focus,
+.input-style-modal:focus + .icon-svg-modal,
+.input-style-modal:hover + .icon-svg-modal {
+  border-color: var(--act-color);
+  outline: var(--act-color);
+  fill: var(--act-color);
+  transition-property: border-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+  .checkbox {
+    position:absolute;
+    transform: translateY(160%);
+}
 .conditions {
     color: var(--act-color);
     text-decoration: underline;
    
+}
+.condi {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 51px;
+    margin-left: 8px;
 }
 .btn-sendup {
     font-family: Roboto;
@@ -374,11 +401,14 @@ header .logo {
     letter-spacing: 0.06em;
     width: 200px;
     height: 50px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
     background: #2196F3;
     color: #fff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    padding: auto;
+    margin: 0px auto;
+    margin-bottom: 40px;
 }
 /* ===============Modal window styles 🧐 ends here========== */
 /* ===============Hero styles 🧐 ends here========== */
