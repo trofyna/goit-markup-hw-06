@@ -278,6 +278,8 @@ header .logo {
         top: -0.5px;
         transform: translateX(680%);
         stroke: #000;
+        fill-opacity: #fff;
+        fill:"#000";
         stroke-opacity: 0.1;
         transition-property: stroke, stroke-opacity;
         transition-duration: 250ms;
