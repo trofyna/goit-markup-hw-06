@@ -321,6 +321,8 @@ header .logo {
     /* margin-left: 0px; */
     color: var(--sec-color);
     text-align: start;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
 
 }
 .input-style-modal {
@@ -365,7 +367,6 @@ header .logo {
     padding-top: 12px;
     padding-left: 12px;
     
-
 }
 
 .input-style-modal:hover,
