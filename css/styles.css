@@ -278,7 +278,7 @@ header .logo {
 }
 .close {
     position: absolute;
-    top: -0.5px;
+    top: -1px;
     stroke: #000;
     stroke-opacity: 0.1;
     transition: stroke, stroke-opacity;
@@ -361,7 +361,7 @@ header .logo {
 
 .icon-svg-modal {
     position: absolute;
-    transform: translateY(130%);
+    transform: translateY(150%);
     margin-left: 12px;
     cursor: pointer;
     fill: var(--main-color);
