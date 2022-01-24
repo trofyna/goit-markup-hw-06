@@ -413,6 +413,7 @@ header .logo {
     font-size: 14px;
     line-height: calc(24 / 14);
     text-align: start;
+    padding-left: 12px;
   }
 
 .input-style-modal:hover,
