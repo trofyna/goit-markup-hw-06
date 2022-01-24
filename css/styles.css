@@ -436,20 +436,7 @@ header .logo {
     text-decoration: underline;
    
 }
-.span-style-modal-condi {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: var(--sec-color);
-    margin-top: 20px;
-    margin-bottom: 30px;
-    /* margin-right: 51px; */
-    margin-left: 15px;
-    text-align: none;
-}
+
 .btn-sendup {
     font-family: Roboto;
     font-style: normal;
@@ -467,6 +454,20 @@ header .logo {
     margin: 0px auto;
     margin-top: 30px;
     margin-bottom: 40px;
+}
+.span-style-modal-condi {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: var(--sec-color);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* margin-right: 51px; */
+    margin-left: 15px;
+    text-align: none;
 }
 /* ===============Modal window styles 🧐 ends here========== */
 /* ===============Hero styles 🧐 ends here========== */
